@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Strings with new lines must be raw strings, where the string is wrapped in double quotes and new lines are regular line breaks and not \n
+    Raw strings still require escaping embedded double quotes, but single quote characters can be escaped or used as-is.
+
+    Raw strings are required because Crowdin AI translations regularly gets confused and
+    replace \n with an encoded new line character.
+
+    Bad:
+        <string name="summary_key">First \'item\' text\nSecond \"item\" text</string>
+    Good:
+        <string name="summary_key">"First 'item' text
+Second \"item\" text"</string>
+
+-->
+<resources>
+  <string name="settings">Postavke</string>
+  <string name="select_app">Izaberite aplikaciju</string>
+  <string name="import_">Uvezi</string>
+  <string name="app_source_dialog_option_auto">Automatski</string>
+  <string name="general">Općenito</string>
+  <string name="about">O aplikaciji</string>
+  <string name="import_keystore_dialog_button">Uvezi</string>
+  <string name="reset">Ponovno postavi</string>
+  <string name="light">Svjetla</string>
+  <string name="api_url_dialog_title">Promijeni URL API-a</string>
+  <string name="delete">Izbrisati</string>
+  <string name="default_install">Zadano</string>
+  <string name="continue_">Nastavi</string>
+  <string name="dismiss">Odbaci</string>
+  <string name="save">Sačuvaj</string>
+  <string name="export">Izvezi</string>
+</resources>
